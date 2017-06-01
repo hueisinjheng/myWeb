@@ -3,6 +3,7 @@
 <head>
 <title>my Dropdown Menu</title>
 <style>
+ 
  .dropdown-content a {
     display: block;
     text-decoration: none;
@@ -10,7 +11,7 @@
 }
  .dropbtn {
     background: #abe0e8;
-    color: blue;
+    color: white;
     font-size: 20px;
     border: none;
     padding: 16px;
@@ -23,9 +24,16 @@
     box-shadow: 9px 6px 16px 4px #8BC34A;
     z-index: 1;
 }
- .dropbtn:hover .dropdown-content{
+ .dropdown:hover .dropdown-content {
     display: block;
 }
+ .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+ .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+ 
 </style>
 </head>
 <body>
@@ -41,3 +49,4 @@
 </div>
 </body>
 </html>
+
